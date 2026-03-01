@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.glass {
+  @apply bg-white/10 dark:bg-white/5 border border-white/20 rounded-2xl shadow-glass backdrop-blur-xl;
+}
