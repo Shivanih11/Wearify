@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+storage/uploaded_clothes/*
+storage/processed_clothes/*
+storage/tryon_results/*
+!storage/uploaded_clothes/.gitkeep
+!storage/processed_clothes/.gitkeep
+!storage/tryon_results/.gitkeep
